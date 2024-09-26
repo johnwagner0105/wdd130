@@ -1,0 +1,12 @@
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+main{
+    text-align: center;
+}
+
+section,.hero, .hero > article{
+    border: 1px solid black;
+}
