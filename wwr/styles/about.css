@@ -3,10 +3,40 @@ header{
     justify-content: space-around;
 }
 
-main{
+.hero{
+    background-image: url("../images/hero-image.jpg");
+    color: white;
+    width: 1000px;
+    height: auto;
     text-align: center;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
 section,.hero, .hero > article{
-    border: 1px solid black;
+    border: 1px sol1id black;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer p{
+    flex-grow: 1;
+    text-align: center;
+}
+
+footer nav{
+    margin-left: auto;
+}
+
+.hero article{
+    display: flex;
 }
