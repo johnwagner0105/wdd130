@@ -1,6 +1,23 @@
+:root{
+    --primary-color:#e2dadb;
+    --secondary-color: #dae2df;
+    --accent1-color: #a2a7a5;
+    --accent2-color: #6d696a;
+    --heading-font:'Roboto Mono';
+    --text-font:'Roboto Condensed';
+}
+
 header{
     display: flex;
     justify-content: space-around;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--heading-font);
+}
+
+p{
+    font-family: var(--text-font);
 }
 
 .hero{
@@ -39,4 +56,8 @@ footer nav{
 
 .hero article{
     display: flex;
+}
+
+a img{
+    height: 20px;
 }
