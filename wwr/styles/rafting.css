@@ -3,8 +3,8 @@
     --secondary-color: #dae2df;
     --accent1-color: #a2a7a5;
     --accent2-color: #6d696a;
-    --heading-font:'Roboto Mono',serif;
-    --text-font:'Roboto Condensed',arial;
+    --heading-font:'Roboto Mono';
+    --text-font:'Roboto Condensed';
 }
 
 header{
