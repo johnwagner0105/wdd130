@@ -1,0 +1,44 @@
+header{
+    padding-left: 50px;
+    display: flex;
+    background-color: #006EB6;
+    height: 75px;
+    color: #F0F0F0;
+    position: relative;
+}
+
+
+img{
+    padding: 20px;
+    right: 20px;
+    position: absolute;
+    background-color: #000000;
+    width: 100px;
+    height: auto;
+    display: block;
+}
+
+nav{
+    display: flex;
+}
+
+nav a{
+    margin: 10px;
+}
+
+main{
+    margin-left: 50px;
+}
+
+ul li{
+    margin-bottom: 10px;
+}
+
+.useful-links{
+    background-color: #E6F3FE;
+}
+
+footer{
+    text-align: center;
+    background-color: #F0F0F0;
+}
