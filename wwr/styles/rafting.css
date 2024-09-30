@@ -108,6 +108,10 @@ footer nav{
     margin-left: auto;
 }
 
+footer nav a{
+    margin: 5px;
+}
+
 a img{
     height: 20px;
 }
