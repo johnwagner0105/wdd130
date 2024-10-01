@@ -8,13 +8,16 @@
 }
 
 body{
+    margin: auto;
+    align-content: center;
+    max-width: 1000px;
     background-color: var(--primary-color);
     color: var(--accent2-color);
     font-family: var(--text-font);
-    
 }
 
 header{
+    background-color: #cbc2c3;
     display: flex;
     justify-content: space-around;
 }
@@ -83,17 +86,23 @@ main{
 
 }
 
-section,.hero, .hero > article,footer{
-    border: 1px solid black;
+.history{
+    background-color: #DCD3D4;
+}
+
+.adventure{
+    background-color: #E8E0E1;
+}
+
+footer{
+    background-color: #d7cecf;
 }
 
 .history,.adventure,.hero{
-    margin: 10px;
     width: 100%;
 }
 
 footer{
-    margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
