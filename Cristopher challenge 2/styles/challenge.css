@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    align-content: center;
+    height: 100px;
+    background-color: #000;
+    color: #f0f0f0;
+    margin-bottom: 10px;
+}
+main{
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+main div{
+    position: relative;
+}
+
+main div img{
+    object-fit: cover;
+}
+
+div p{
+    visibility: hidden;
+    align-content: center;
+    height: 30px;
+    background-color: #000;
+    color: #f0f0f0;
+    position: absolute;
+    bottom: 5px;
+    transition: visibility 1s,opacity 1s;
+    opacity: 0;
+}
+
+main div:hover p{
+visibility: visible;
+opacity: 1;
+}
+
+footer{
+    text-align: center;
+}
