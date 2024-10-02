@@ -34,7 +34,7 @@ div p{
     color: #f0f0f0;
     position: absolute;
     bottom: 5px;
-    transition: visibility 1s,opacity 1s;
+    transition: visibility 2s,opacity 2s;
     opacity: 0;
 }
 
