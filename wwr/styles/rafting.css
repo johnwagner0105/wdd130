@@ -18,11 +18,16 @@ body {
 
 header {
   background-color: #cbc2c3;
-  display: flex;
+  display: grid;
   justify-content: space-around;
 }
 
+.logo {
+  grid-column: 1/2;
+}
+
 nav {
+  grid-column: 2/3;
   display: flex;
   align-items: center;
   text-align: center;
@@ -98,8 +103,14 @@ main {
   background-color: #dcd3d4;
 }
 
+.history-content {
+  display: flex;
+  gap: 5px;
+}
+
 .adventure {
   background-color: #e8e0e1;
+  width: 100%;
 }
 
 footer {
@@ -110,6 +121,15 @@ footer {
 .adventure,
 .hero {
   width: 100%;
+}
+
+.adventure-images {
+  width: 100%;
+  display: flex;
+}
+
+figure img {
+  max-width: 100%;
 }
 
 footer {
