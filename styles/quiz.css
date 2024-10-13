@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  text-align: center;
+}
+form {
+  background-color: #d4cbcb;
+  margin: 0 auto;
+  width: 35%;
+}
+
+label,
+input,
+textarea,
+button,
+select {
+  margin: 10px 5px 15px;
+  width: 95%;
+}
+
+input,
+select {
+  height: 25px;
+}
+
+textarea {
+  height: 50px;
+}
