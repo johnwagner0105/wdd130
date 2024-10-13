@@ -154,3 +154,25 @@ footer nav a {
 a img {
   height: 20px;
 }
+
+/* contact website */
+.employees {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.map iframe {
+  width: 400px;
+}
+
+.employees picture img {
+  width: 250px;
+  height: 150px;
+}
+
+.contact-form {
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+}
