@@ -1,0 +1,178 @@
+:root {
+  --primary-color: #e2dadb;
+  --secondary-color: #dae2df;
+  --accent1-color: #a2a7a5;
+  --accent2-color: #6d696a;
+  --heading-font: "Roboto Mono";
+  --text-font: "Roboto Condensed";
+}
+
+body {
+  margin: auto;
+  align-content: center;
+  max-width: 1000px;
+  background-color: var(--primary-color);
+  color: var(--accent2-color);
+  font-family: var(--text-font);
+}
+
+header {
+  background-color: #cbc2c3;
+  display: grid;
+  justify-content: space-around;
+}
+
+.logo {
+  grid-column: 1/2;
+}
+
+nav {
+  grid-column: 2/3;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+header nav a {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border: 1px solid black;
+  width: 100px;
+  height: 30px;
+}
+
+header nav a:hover {
+  background-color: #313030;
+  color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+}
+
+p {
+  font-family: var(--text-font);
+}
+
+.hero {
+  /* background-image: url("../images/hero-image.jpg"); */
+  color: white;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  position: relative;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 25px;
+  right: 275px;
+}
+
+.hero article {
+  color: var(--accent2-color);
+  display: flex;
+  position: absolute;
+  top: 400px;
+  background-color: var(--primary-color);
+}
+article img {
+  width: 200px;
+  height: auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.history {
+  background-color: #dcd3d4;
+}
+
+.history-content {
+  display: flex;
+  gap: 5px;
+}
+
+.adventure {
+  background-color: #e8e0e1;
+  width: 100%;
+}
+
+footer {
+  background-color: #d7cecf;
+}
+
+.history,
+.adventure,
+.hero {
+  width: 100%;
+}
+
+.adventure-images {
+  width: 100%;
+  display: flex;
+}
+
+figure img {
+  max-width: 100%;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer p {
+  flex-grow: 1;
+  text-align: center;
+}
+
+footer nav {
+  margin-left: auto;
+}
+
+footer nav a {
+  margin: 5px;
+}
+
+a img {
+  height: 20px;
+}
+
+/* contact website */
+.employees {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.map iframe {
+  width: 400px;
+}
+
+.employees picture img {
+  width: 250px;
+  height: 150px;
+}
+
+.contact-form {
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+}
