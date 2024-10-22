@@ -81,6 +81,11 @@ p {
   right: 275px;
 }
 
+.hero-index {
+  top: 50%;
+  left: 50%;
+}
+
 .hero article {
   color: var(--accent2-color);
   display: flex;
@@ -88,6 +93,35 @@ p {
   top: 400px;
   background-color: var(--primary-color);
 }
+
+.hero-container-index {
+  position: relative;
+  display: inline-block;
+}
+
+.hero-image-index {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-container-index h1 {
+  color: white;
+  text-align: center;
+}
+
 article img {
   width: 200px;
   height: auto;
@@ -169,10 +203,58 @@ a img {
 .images {
   width: 250px;
   height: 150px;
+  border-radius: 50%;
 }
 
 .contact-form {
   display: flex;
   gap: 10px;
   margin: 10px;
+}
+
+#q4 {
+  width: 200px;
+  height: 200px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container h2 {
+  align-self: center;
+}
+
+.images-container {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 10px;
+  max-width: 100%;
+}
+
+.images-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.image-card-container {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.image-card {
+  width: 100%;
+  height: auto;
+}
+
+.image-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
